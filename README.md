@@ -13,7 +13,7 @@ This repository consists of Terraform templates to create F5XC IPSec object.
 
 ## Multi Node Single NIC and new subnet module usage example
 
-````hcl
+```hcl
 variable "project_prefix" {
   type        = string
   description = "prefix string put in front of string"
