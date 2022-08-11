@@ -11,7 +11,7 @@ This repository consists of Terraform templates to create F5XC IPSec object.
 - Initialize with: `terraform init`
 - Apply with: `terraform apply -auto-approve` or destroy with: `terraform destroy -auto-approve`
 
-## Multi Node Single NIC and new subnet module usage example
+## F5XC IPSec module usage example
 
 ```hcl
 variable "project_prefix" {
