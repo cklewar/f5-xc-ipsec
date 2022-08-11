@@ -1,5 +1,5 @@
 # F5-XC-IPSEC
-This repository consists of Terraform templates to F5XC IPSec object.
+This repository consists of Terraform templates to create F5XC IPSec object.
 
 ## Usage
 
