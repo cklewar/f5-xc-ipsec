@@ -1,6 +1,15 @@
 terraform {
   required_version = ">= 1.3.0"
 
+  cloud {
+    organization = "cklewar"
+    hostname     = "app.terraform.io"
+
+    workspaces {
+      name = "f5-xc-ipsec-module"
+    }
+  }
+
   required_providers {
     f5xc = {
       source  = "volterraedge/volterra"
