@@ -1,5 +1,5 @@
 name: F5XC IPSec module
-on: push
+on: workflow_dispatch
 jobs:
   f5-xc-ipsec-module-validate:
     runs-on: ubuntu-latest
