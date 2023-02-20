@@ -14,11 +14,7 @@ terraform {
     null = ">= 3.1.1"
     volterra = {
       source = "volterraedge/volterra"
-<<<<<<< HEAD
-      version = "= 0.11.18"
-=======
       version = "= 0.11.19"
->>>>>>> 0.11.19
     }
   }
 }
